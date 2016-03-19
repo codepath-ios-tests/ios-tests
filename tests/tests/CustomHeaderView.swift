@@ -32,7 +32,7 @@ class CustomHeaderView: UIView {
         UIView.animateWithDuration(2.0, animations: { () -> Void in
             self.image.alpha = 0.1;
             }) { (success: Bool) -> Void in
-                self.fadeInImage();
+//                self.fadeInImage();
         }
     }
 
